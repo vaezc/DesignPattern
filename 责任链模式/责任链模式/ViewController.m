@@ -31,8 +31,8 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	AbstractLogger *loggerChain = [self getChainOfloggers];
-	[loggerChain logMessage:AbstractLogger.Info message:@"info message"];
-	[loggerChain logMessage:AbstractLogger.Debug message:@"debug message"];
+//	[loggerChain logMessage:AbstractLogger.Info message:@"info message"];
+//	[loggerChain logMessage:AbstractLogger.Debug message:@"debug message"];
 	[loggerChain logMessage:AbstractLogger.Error message:@"Error message"];
 
 
